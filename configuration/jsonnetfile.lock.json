@@ -4,23 +4,12 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/observatorium/api.git",
-          "subdir": "jsonnet/lib"
-        }
-      },
-      "version": "d7b6867af17766826540ef9f7b06c84210d0481d",
-      "sum": "Z86CgnoTybhpdQKWc2ptURmps1d9Qxhec0/IK6v71kY=",
-      "name": "observatorium-api"
-    },
-    {
-      "source": {
-        "git": {
           "remote": "https://github.com/observatorium/thanos-receive-controller.git",
           "subdir": "jsonnet/lib"
         }
       },
-      "version": "c4e7a4a2371b8297d3c8ebccdd247e2a0b5214d4",
-      "sum": "sqF9titAn3N2HHKY9mCzbZ+d/xL5ZBQ/ej/t190jY6o=",
+      "version": "0451c3467da52d4a9317d5ac73ee94d391e503ed",
+      "sum": "b197aI/1D/lM8dztih8lrhZxtGp7Ro6tv4BfOzwwydI=",
       "name": "thanos-receive-controller"
     },
     {
@@ -30,7 +19,7 @@
           "subdir": "jsonnet"
         }
       },
-      "version": "03ef2f2bb89be1dbf45078fef371441d162df679",
+      "version": "21b9125fa700ce2f2472caef720086179329b33e",
       "sum": "0FKabnXd0rMeu8YpkkopEOknqBf5PLq/DIIDd0ve7cU=",
       "name": "up"
     },
@@ -41,8 +30,19 @@
           "subdir": "jsonnet/kube-thanos"
         }
       },
-      "version": "f53ad9856c6f765989ea76ba8eff8dd1e77186b7",
-      "sum": "1wMHM/+NvluUAxS5cBW2c6APEKQNQYLYnv1ZCE1R3/A="
+      "version": "fdba356cad426f24dedaed3c29b22b2dc44e2cde",
+      "sum": "AULYhjhp9+cczRq/s1/Cege/7/Su+v6O47T7CJQi2wE="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.ibm.com/Observability/dragonlog-observatorium-api.git",
+          "subdir": "jsonnet/lib"
+        }
+      },
+      "version": "65b38ef97aa6cad78f166f194d5842e58bc2bba5",
+      "sum": "/33386b3/boEQGuUF3y8mc7iOzFekzLuPtozDzTKfhs=",
+      "name": "observatorium-api"
     }
   ],
   "legacyImports": false
